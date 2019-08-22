@@ -1,6 +1,9 @@
 <?php
 
 # Print all possible letter from phone Digits Dialup
+
+# https://www.geeksforgeeks.org/find-possible-words-phone-digits/
+
 function printWordRecursion($input,$curr,$output,$number){
 
 	$dialPadLetters = array("", "", "abc", "def", "ghi", "jkl",  
